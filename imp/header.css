@@ -1,0 +1,133 @@
+.header {
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0);
+}
+.lefthead {
+    color: #DDC3A5;
+    font-family: Quicksand, Arial;
+    font-size: 25px;
+    font-weight: 300;
+    padding-top: 10px;
+    padding-left: 10px;
+    align-items: left;
+}
+.righthead {
+    padding-top: 15px;
+    align-items: right;
+    padding-right: 40px;
+}
+.homeb {
+    color: #DDC3A5;
+    background-color: black;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    font-family: Quicksand, Arial;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+    scroll-behavior: smooth;
+    scroll-margin-top: 1em;
+
+}
+.homeb:link { text-decoration: none; }
+.homeb:visited { text-decoration: none; }
+.homeb:hover {background-color: rgb(43, 43, 43); text-decoration: none; }
+.homeb:active { text-decoration: none; }
+
+.aboutb {
+    color: #DDC3A5;
+    background-color: black;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    padding-right: 25px;
+    padding-left: 25px;
+    font-family: Quicksand, Arial;
+    font-size: 15px;
+    cursor: pointer;
+    border: 0;
+    transition: background-color 0.15s;
+    scroll-behavior: smooth;
+    scroll-margin-top: 1em;
+}
+.aboutb:link { text-decoration: none; }
+.aboutb:visited { text-decoration: none; }
+.aboutb:hover {background-color: rgb(43, 43, 43); text-decoration: none; }
+.aboutb:active { text-decoration: none; }
+
+.contactb {
+    color: #DDC3A5;
+    background-color: black;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    font-family: Quicksand, Arial;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+    scroll-behavior: smooth;
+    scroll-margin-top: 1em;
+
+}
+.contactb:link { text-decoration: none; }
+.contactb:visited { text-decoration: none; }
+.contactb:hover {background-color: rgb(43, 43, 43); text-decoration: none; }
+.contactb:active { text-decoration: none; }
+
+.workb {
+    color: #DDC3A5;
+    background-color: black;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top:21px;
+    padding-bottom: 21px;
+    font-family: Quicksand, Arial;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+    scroll-behavior: smooth;
+    scroll-margin-top: 1em;
+
+}
+.workb:link { text-decoration: none; }
+.workb:visited { text-decoration: none; }
+.workb:hover {background-color: rgb(43, 43, 43); text-decoration: none; }
+.workb:active { text-decoration: none; }
+
+.edub {
+    color: #DDC3A5;
+    background-color: black;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    font-family: Quicksand, Arial;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+    scroll-behavior: smooth;
+    scroll-margin-top: 1em;
+
+}
+.edub:link { text-decoration: none; }
+.edub:visited { text-decoration: none; }
+.edub:hover {background-color: rgb(43, 43, 43); text-decoration: none; }
+.edub:active { text-decoration: none; }
+
+html {
+	scroll-behavior: smooth;
+}
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}

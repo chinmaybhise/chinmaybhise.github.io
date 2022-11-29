@@ -1,0 +1,389 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+p {
+    align-content: justify;
+}
+
+.shareer {  
+    display: grid;
+    width: 1519px;
+    height: 1000px;
+    background-image: url("photos/chinmey.jpg");
+    grid-template-columns: 2fr 1fr;
+}
+
+@keyframes ltor {
+from {opacity: 0;}
+to {opacity: 1;}
+}
+
+
+.amnamate {
+    margin-top: 10px;
+    padding-left: 70px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-family: Quicksand, Arial;
+    font-weight: 300;
+    opacity: 0;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    animation-name: ltor;
+    animation-duration: 2s;  
+    animation-fill-mode: forwards;
+}
+.welcome {
+    padding-top: 70px;
+    padding-left: 70px;
+    padding-right: 100px;
+    margin-bottom: 0;
+    font-size: 100px;
+    font-family: Quicksand, Arial;
+    font-weight: 700;
+    opacity: 0.5;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    animation-name: ltor;
+    animation-duration: 2s;  
+    animation-fill-mode: forwards; 
+}
+.images {
+    mix-blend-mode: darken;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 230px;
+    padding-right: 250px;   
+}
+.images2 {
+    mix-blend-mode: hue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 230px;
+    padding-right: 250px;   
+}
+.facebook {
+    height: 50px;
+    width: auto;
+    cursor: pointer;
+    transition: opacity 0.5s;
+    opacity: 1;
+    animation-name: ltor;
+    animation-duration: 2s;  
+
+}
+.instagram {
+    height: 50px;
+    width: auto;
+    cursor: pointer;
+    transition: opacity 0.5s;
+    opacity: 1;
+    animation-name: ltor;
+    animation-duration: 2s;  
+}
+.linkedin {
+    height: 50px;
+    width: auto;
+    cursor: pointer;
+    transition: opacity 0.5s;
+    opacity: 1;
+    animation-name: ltor;
+    animation-duration: 2s;  
+}
+
+.logob {
+    border: 0;
+}
+
+.facebook:hover {
+    opacity: 0.7;
+}
+.instagram:hover {
+    opacity: 0.7;
+}
+.linkedin:hover {
+    opacity: 0.7;
+}
+.abouting{
+    height: 850px;
+    width: 1519px;
+    background-color:  #DDC3A5;
+    
+}
+.fade-in{
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
+.fade-in.appear {
+    opacity: 1;
+}
+.sal {
+    padding-bottom: 100px;
+}
+.salam {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.vision {
+    font-size: 25px;
+    padding-top: 20px;
+    font-weight: 500;
+}
+.vis {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #c1a483;
+}
+.ion {
+    padding-bottom: 20px;
+}
+.aboutme {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 50px;
+    font-family: Quicksand, Arial;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    margin: 0;
+}
+.aboutcontent {
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 20px;
+    font-family: Quicksand, Arial;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    margin: 0;
+
+    }
+.aboutimg {
+    width: 250px;
+    border-radius: 125px;
+} 
+.withimg {
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}  
+.contacting{
+    height: 1000px;
+    width: 1519px;
+}
+.contactme {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 50px;
+    font-family: Quicksand, Arial;
+    font-weight: 700;
+    color: white;
+}
+.contactcontent {
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 20px;
+    font-family: Quicksand, Arial;
+    font-weight: 300;
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 0;
+    background-color: rgb(32, 31, 31);
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 0px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  input[type=submit] {
+    background-color: #DDC3A5;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #c1a483;
+  }
+
+.contactpravachan {
+    color: white;
+    padding-right: 50px;
+}
+.reachout {
+    padding-top: 100px;
+}
+.ep {
+    font-size: 18px;
+}
+
+.namee {
+    color: white;
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.namee2 {
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+}
+.educating{
+    height: 1900px;
+    width: 1519px;
+    background-color:  #DDC3A5;
+}
+.educateme {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 50px;
+    font-family: Quicksand, Arial;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+.educationcontent {
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 20px;
+    font-family: Quicksand, Arial;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+}
+.timedeg {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.time {
+    padding-left: 50px;
+    font-weight: 500;
+}
+.degree {
+    align-items: right;
+    padding-right: 50px;
+    font-weight: 700;
+}
+.uni {
+    align-items: right;
+    padding-right: 50px;
+    font-weight: 500;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+
+.special2 {
+    padding-bottom: 10px;
+    font-weight: 300;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    text-indent: -1.4em;
+}
+.special {
+    padding-bottom: 10px;
+    font-weight: 300;
+    padding-bottom: 50px;
+}
+.subquali {
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+.desc {
+    font-size: 20px;
+}
+
+.working{
+    height: 1700px;
+    width: 1519px;
+}
+.workme {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 50px;
+    font-family: Quicksand, Arial;
+    font-weight: 700;
+    color: white;
+}
+.workcontent {
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 20px;
+    font-family: Quicksand, Arial;
+    font-weight: 300;
+    color: white;
+}
+
+.present {
+    cursor: pointer;
+}
+.present:link { text-decoration: none; }
+.present:visited { text-decoration: none; }
+.present:hover { text-decoration: none; }
+.present:active { text-decoration: none; }
+
+.work {
+    padding-left: 80px;
+}
+.educate {
+    padding-left: 80px;
+}
+.contact {
+    padding-left: 80px;
+}
+
+  .from-bottom {
+    -webkit-transform: translateY(300px);
+    transform: translateY(300px);
+  }
+  
+  .from-bottom {
+    transition: opacity 350ms ease-in, -webkit-transform 400ms ease-in;
+    transition: opacity 350ms ease-in, transform 400ms ease-in;
+    transition: opacity 350ms ease-in, transform 400ms ease-in,
+      -webkit-transform 400ms ease-in;
+    opacity: 0;
+  }
+  
+  .from-bottom.appear {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  .thankyou {
+    padding-top: 200px;
+    display: block;
+    font-size: 100px;
+    padding-left: 480px;
+    color: #DDC3A5;
+    font-family: Quicksand, Arial;
+  }
+  .messageforyou {
+    display:block;
+    padding-left: 370px;
+    font-size: 20px;
+    align-items: center;
+    color: #DDC3A5;
+    font-family: Quicksand, Arial;
+
+  }
